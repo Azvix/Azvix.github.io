@@ -1,0 +1,78 @@
+/* =============================================================
+   AZVIX — BRAND TOKENS
+   Medieval / Crusader design system
+   Font dependencies (Google Fonts — include in HTML <head>):
+   https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&family=Asul:wght@400;700&display=swap
+   ============================================================= */
+
+:root {
+
+  /* ── Colours ───────────────────────────────────────────── */
+
+  /* Backgrounds */
+  --color-bg-deep:     #0E0E0E;   /* Page background          */
+  --color-bg-surface:  #1A1A1A;   /* Cards, panels            */
+  --color-bg-elevated: #252525;   /* Modals, dropdowns        */
+
+  /* Borders */
+  --color-border-subtle: #2E2E2E; /* Dividers, quiet borders  */
+  --color-border-accent: #3D3A30; /* Panel borders (warm tint)*/
+
+  /* Text */
+  --color-text-primary:   #E8E0D0; /* Aged parchment off-white */
+  --color-text-secondary: #8A8070; /* Muted / secondary        */
+  --color-text-disabled:  #484440; /* Disabled states          */
+
+  /* Gold — primary accent */
+  --color-gold:      #C8A445;
+  --color-gold-deep: #8B6914;
+  --color-gold-glow: #E8C060;
+
+  /* Ember — danger / fire accent */
+  --color-ember:      #E85010;
+  --color-ember-glow: #FF7030;
+
+  /* ── Typography ────────────────────────────────────────── */
+
+  --font-display: 'Titillium Web', 'Trebuchet MS', sans-serif;
+  --font-body:    'Asul', 'Trebuchet MS', sans-serif;
+  --font-mono:    'Courier New', monospace;
+
+  --letter-spacing-display: 0.12em;
+  --letter-spacing-label:   0.08em;
+
+  /* ── Spacing (8px base scale) ───────────────────────────── */
+
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ── Border radius (angular — medieval feel) ────────────── */
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+
+  /* ── Borders ────────────────────────────────────────────── */
+
+  --border-width:  1px;
+  --border-gold:   1px solid var(--color-gold);
+  --border-subtle: 1px solid var(--color-border-subtle);
+
+  /* ── Shadows & glow ─────────────────────────────────────── */
+
+  --shadow-sm:    0 1px 4px  rgba(0, 0, 0, 0.6);
+  --shadow-md:    0 4px 16px rgba(0, 0, 0, 0.8);
+  --shadow-gold:  0 0 12px   rgba(200, 164, 69, 0.35);
+  --shadow-ember: 0 0 12px   rgba(232, 80,  16, 0.40);
+
+  /* ── Transitions ────────────────────────────────────────── */
+
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.2s ease;
+}
